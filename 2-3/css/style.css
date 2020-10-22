@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+a { color:white } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:brown; }
+a:hover, a:active { text-decoration: none; color:grey }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #caae9c;
+}
+
+.wrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-height: 1700px;
+    height: auto;
+    border:1px solid #000;
+    width: 1100px;
+    height: 1000px;
+    background-color: #ebc8b2;
+    z-index: 2;
+ }
+ .logo {
+    width:150px;
+    height:100px;
+    margin-left: 475px;
+}
+
+
+/* start burger */
+.logo-size{
+  margin-top: -20%;
+}
+.container > *, .container > *:after, .container > *:before{
+  position: absolute;
+}
+.container > *:after, .container > *:before {
+  content:'';
+}
+.container {
+  position: relative;
+  width: 0%;
+  height: 400px;
+  top: 150px;
+  right: 230px;
+  margin: auto;
+}
+.bread{
+  width: 170px;
+  height: 55px;
+  top: 88px;
+  left: 150px;
+  background: #df7b30;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.bread:after{
+  width: 100%;
+  height: 30px;
+  top: 140px;
+  background: #df7b30;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.sesame{
+  width: 100%;
+  height: 100%;
+  background-image:radial-gradient(#f3d9b1 5%, transparent 6%),
+  radial-gradient(#f3d9b1 5%, transparent 6%);
+  background-size: 40px 30px;
+  background-position: 10px 0px, 30px 15px;
+}
+.meat{
+  width: 160px;
+  height: 25px;
+  top: 200px;
+  left: 155px;
+  background: #492f16;
+  border-radius: 50px;
+}
+.lettuce{
+  width: 150px;
+  height: 15px;
+  top: 183px;
+  left: 160px;
+  background: #88b538;
+  border-radius: 50px;
+}
+.cheese{
+  width: 160px;
+  height: 15px;
+  top: 165px;
+  left: 155px;
+  background: #e6af00;
+  border-radius: 50px;
+}
+.melting-cheese{
+  animation: melt 3s infinite;
+  width: 15px;
+  height: 25px;
+  height: 25px;
+  background: #e6af00;
+  top: 165px;
+  left: 185px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.melting-cheese:after{
+  width: 100%;
+  height: 150%;
+  background: #e6af00;
+  left: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@keyframes melt {
+  0%{
+    height: 0%;
+  }
+  100%{
+    height: 10%;
+  }
+}
+.onion{
+  width: 150px;
+  height: 15px;
+  top: 147px;
+  left: 160px;
+  background: #822e81;
+  border-radius: 50px;
+}
+.onion:before{
+  width: 13%;
+  height: 100%;
+  left: 30px;
+  background: #fff;
+  opacity: 0.4;
+}
+.onion:after{
+  width: 13%;
+  height: 100%;
+  left: 80px;
+  background: #fff;
+  opacity: 0.4;
+}
+/* end burger*/
+
+
+  .button1{
+    width: 100px;
+    height: 65px;
+    float: left; 
+    margin-left: 30px; 
+    margin-top: 90px;
+    text-align: center;
+    position: relative;
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .button2{
+    width: 100px;
+    height: 65px;
+    float: left; 
+    margin-left: 30px; 
+    margin-top: 90px;
+    text-align: center;
+    position: relative;
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .button3{
+    width: 100px;
+    height: 65px;
+    float: left; 
+    margin-left: 30px; 
+    margin-top: 90px;
+    text-align: center;
+    position: relative;
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .button4{
+    width: 100px;
+    height: 65px;
+    float: right;  
+    margin-right: 30px;
+    margin-top: 90px;
+    text-align: center;
+    position: relative;
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .button5{
+    width: 100px;
+    height: 65px;
+    float: right;  
+    margin-right: 30px;
+    margin-top: 90px;
+    text-align: center;
+    position: relative;
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .button6{
+    width: 100px;
+    height: 65px;
+    float: right;  
+    margin-right: 30px;
+    margin-top: 90px;
+    text-align: center;
+    position: relative;
+    box-sizing: inherit;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .button1 {
+    letter-spacing: 0;
+  }
+  
+  .button1:hover,
+  .button1:active {
+    letter-spacing: 5px;
+  }
+  
+  .button1:after,
+  .button1:before {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all 280ms ease-in-out;
+    transition: all 280ms ease-in-out;
+    width: 0;
+  }
+  
+  .button1:hover:after,
+  .button1:hover:before {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-color: #fff;
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+  }
+  
+  .button1:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%;
+  }
+  
+.button2 {
+  letter-spacing: 0;
+}
+
+.button2:hover,
+.button2:active {
+  letter-spacing: 5px;
+}
+
+.button2:after,
+.button2:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 280ms ease-in-out;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.button2:hover:after,
+.button2:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: #fff;
+  -webkit-transition: width 350ms ease-in-out;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.button2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+
+.button3 {
+  letter-spacing: 0;
+}
+
+.button3:hover,
+.button3:active {
+  letter-spacing: 5px;
+}
+
+.button3:after,
+.button3:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 280ms ease-in-out;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.button3:hover:after,
+.button3:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: #fff;
+  -webkit-transition: width 350ms ease-in-out;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.button3:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+
+.button4 {
+  letter-spacing: 0;
+}
+
+.button4:hover,
+.button4:active {
+  letter-spacing: 5px;
+}
+
+.button4:after,
+.button4:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 280ms ease-in-out;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.button4:hover:after,
+.button4:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: #fff;
+  -webkit-transition: width 350ms ease-in-out;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.button4:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+.button5 {
+  letter-spacing: 0;
+}
+
+.button5:hover,
+.button5:active {
+  letter-spacing: 5px;
+}
+
+.button5:after,
+.button5:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 280ms ease-in-out;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.button5:hover:after,
+.button5:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: #fff;
+  -webkit-transition: width 350ms ease-in-out;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.button5:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+.button6 {
+  letter-spacing: 0;
+}
+
+.button6:hover,
+.button6:active {
+  letter-spacing: 5px;
+}
+
+.button6:after,
+.button6:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transition: all 280ms ease-in-out;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.button6:hover:after,
+.button6:hover:before {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-color: #fff;
+  -webkit-transition: width 350ms ease-in-out;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.button6:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+  
+
+  .slideshow{
+    width: 1060px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 30px; 
+    outline: 2px solid gray;
+    position: relative; z-index: 1;
+  }
+
+  .leftarrow {
+    cursor: pointer;
+    height: 120px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) scaleX(-0.9);
+    transition: transform .1s;
+    width: 80px;
+    left: 50px;
+  }
+  .leftarrow-top, .leftarrow-bottom {
+    background-color: #666;
+    height: 4px;
+    left: -5px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  }
+  .leftarrow-top:after, .leftarrow-bottom:after {
+    background-color: #fff;
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.15s;
+  }
+  .leftarrow-top {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+  }
+  .leftarrow-top:after {
+    left: 100%;
+    right: 0;
+    transition-delay: 0s;
+  }
+  .leftarrow-bottom {
+    transform: rotate(-45deg);
+    transform-origin: top right;
+  }
+  .leftarrow-bottom:after {
+    left: 0;
+    right: 100%;
+    transition-delay: 0.15s;
+  }
+  .leftarrow:hover .leftarrow-top:after {
+    left: 0;
+    transition-delay: 0.15s;
+  }
+  .leftarrow:hover .leftarrow-bottom:after {
+    right: 0;
+    transition-delay: 0s;
+  }
+  .leftarrow:active {
+    transform: translateX(-50%) translateY(-50%) scaleX(-0.9) scale(0.9);
+  }
+
+  .rightarrow {
+    cursor: pointer;
+    height: 120px;
+    right: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: transform .1s;
+    width: 80px;
+    right: -30px;
+  }
+  .rightarrow-top, .rightarrow-bottom {
+    background-color: #666;
+    height: 4px;
+    left: -5px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  }
+  .rightarrow-top:after, .rightarrow-bottom:after {
+    background-color: #fff;
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.15s;
+  }
+  .rightarrow-top {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+  }
+  .rightarrow-top:after {
+    left: 100%;
+    right: 0;
+    transition-delay: 0s;
+  }
+  .rightarrow-bottom {
+    transform: rotate(-45deg);
+    transform-origin: top right;
+  }
+  .rightarrow-bottom:after {
+    left: 0;
+    right: 100%;
+    transition-delay: 0.15s;
+  }
+  .rightarrow:hover .rightarrow-top:after {
+    left: 0;
+    transition-delay: 0.15s;
+  }
+  .rightarrow:hover .rightarrow-bottom:after {
+    right: 0;
+    transition-delay: 0s;
+  }
+  .rightarrow:active {
+    transform: translateX(-50%) translateY(-50%) scale(0.9);
+  }
+  
+  
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .dots{
+    margin-left: 500px;
+  }
+
+
+  .left-text-box{
+    border:1px solid #000;
+    float: left;
+    position: absolute;
+  }
+  .right-text-box{
+    border:1px solid #000;
+    float: right;
+    position: absolute;
+  }
+
+  .bigdotleft {
+    height: 75px;
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    float: left;
+    margin-right: 500px;
+    margin-left: 40px;
+  }
+  .bigdotright {
+    height: 75px;
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    float: right;
+    margin-left: 500px;
+    margin-right: 40px;
+  }
+
+  .burger-picture {
+    width:400px;
+    height:530px;
+    margin-left: 350px;
+    margin-top: 15px;
+    position: relative; z-index: 1;
+    margin-bottom: 150px;
+}
+
+
+
+
+.bottomdot3{
+  height: 75px;
+  width: 75px;
+  background-color: #bbb;
+  border-radius: 50%;
+  float: right;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.bottomdot4{
+  height: 75px;
+  width: 75px;
+  background-color: #bbb;
+  border-radius: 50%;
+  float: right;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  float: right;
+  margin-top: 55px;
+  margin-right: 20px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  transform: translateY(-4px);
+    transition:0.3s;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

@@ -105,7 +105,7 @@
             <object type="image/svg+xml" data="svg/qingxin.svg" class="qingxin"></object>
             <object type="image/svg+xml" data="svg/violetgrass.svg" class="violetgrass"></object>
             <object type="image/svg+xml" data="svg/cecilia.svg" class="cecilia"></object>
-            <a href="https://github.com/johnpaulmaja/LEsvg" style="position: absolute;transform: translate(-1040px,1920px); width: 120px;">Github Link here</a>
+            <a href="https://github.com/johnpaulmaja/portfolio/tree/main/leMidterm" style="position: absolute;transform: translate(-1040px,1920px); width: 120px;">Github Link here</a>
         </wrapper>
     </body>
 </html> 

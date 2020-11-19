@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 497 251">
+    <ellipse cx="241" cy="109" rx="96" ry="88" style="fill: #fcfeff"><animate attributeName="cx" from="241" to="2161" dur="4s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="178" cy="175" rx="99" ry="77" style="fill: #fcfeff"><animate  attributeName="cx" from="178" to="2098" dur="4s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="348" cy="171" rx="98" ry="91" style="fill: #fcfeff"><animate  attributeName="cx" from="348" to="2268" dur="4s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="67" cy="206" rx="67" ry="55" style="fill: #fcfeff"><animate  attributeName="cx" from="67" to="1987" dur="4s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="245" cy="226" rx="44" ry="35" style="fill: #fcfeff"><animate  attributeName="cx" from="245" to="2165" dur="4s" repeatCount="indefinite"/></ellipse>
+    <circle cx="442" cy="206" r="55" style="fill: #fcfeff"><animate  attributeName="cx" from="442" to="2362" dur="4s" repeatCount="indefinite"/></circle>
+</svg>

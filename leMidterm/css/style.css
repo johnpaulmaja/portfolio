@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  width: 1920px;
+  height: 2161.3px;
+}
+.unique{
+    width: 200px;
+    position: absolute;
+    transform: translate(-1070px,730px);
+    animation: uniquerotate 5s linear infinite;
+    transition: ease-in-out;
+}
+
+@keyframes uniquerotate {
+  100% {transform: translate(-1070px,730px) rotate(360deg);}
+}
+
+.handshake{
+    width: 250px;
+    position: absolute;
+    transform: translate(-600px,610px);
+    animation: handshakeshake 5s linear infinite;
+    transition: ease-in-out;
+}
+
+@keyframes handshakeshake {
+  0% { transform: translate(-599px,611px) rotate(0deg); }
+  10% { transform: translate(-599px,608px) rotate(-1deg); }
+  20% { transform: translate(-597px,610px) rotate(1deg); }
+  30% { transform: translate(-603px,612px) rotate(0deg); }
+  40% { transform: translate(-601px,609px) rotate(1deg); }
+  50% { transform: translate(-599px, 612px) rotate(-1deg); }
+  60% { transform: translate(-597px, 611px) rotate(0deg); }
+  70% { transform: translate(-603px, 601px) rotate(-1deg); }
+  80% { transform: translate(-599px, 599px) rotate(1deg); }
+  90% { transform: translate(-601px, 612px) rotate(0deg); }
+  100% { transform: translate(-601px, 598px) rotate(-1deg); }
+}
+
+.silkflower{
+  width: 300px;
+  height: 270px;
+  position: absolute;
+  transform: translate(-1640px,1210px);
+}
+.silkflower:hover{
+  animation: silkflower 1s linear infinite;
+  transition: ease-in-out;
+}
+
+@keyframes silkflower {
+  0% {transform: translate(-1640px,1210px) rotate(0deg);}
+  25% {transform: translate(-1640px,1210px) rotate(-5deg);}
+  50% {transform: translate(-1640px,1210px) rotate(0deg);}
+  75% {transform: translate(-1640px,1210px) rotate(5deg);}
+  100% {transform: translate(-1640px,1210px) rotate(0deg);}
+}
+
+.glazelily{
+  width: 300px;
+  height: 270px;
+  position: absolute;
+  transform: translate(-1140px,1210px);
+}
+.glazelily:hover{
+  animation: glazelily 1s linear infinite;
+  transition: ease-in-out;
+}
+
+@keyframes glazelily {
+  0% {transform: translate(-1140px,1210px) rotate(0deg);}
+  25% {transform: translate(-1140px,1210px) rotate(-5deg);}
+  50% {transform: translate(-1140px,1210px) rotate(0deg);}
+  75% {transform: translate(-1140px,1210px) rotate(5deg);}
+  100% {transform: translate(-1140px,1210px) rotate(0deg);}
+}
+
+.qingxin{
+  width: 300px;
+  height: 270px;
+  position: absolute;
+  transform: translate(-660px,1210px);
+}
+.qingxin:hover{
+  animation: qingxin 1s linear infinite;
+  transition: ease-in-out;
+}
+
+@keyframes qingxin {
+  0% {transform: translate(-660px,1210px) rotate(0deg);}
+  25% {transform: translate(-660px,1210px) rotate(-5deg);}
+  50% {transform: translate(-660px,1210px) rotate(0deg);}
+  75% {transform: translate(-660px,1210px) rotate(5deg);}
+  100% {transform: translate(-660px,1210px) rotate(0deg);}
+}
+
+.violetgrass{
+  width: 300px;
+  height: 270px;
+  position: absolute;
+  transform: translate(-885px,1560px);
+}
+.violetgrass:hover{
+  animation: violetgrass 1s linear infinite;
+  transition: ease-in-out;
+}
+
+@keyframes violetgrass {
+  0% {transform: translate(-885px,1560px) rotate(0deg);}
+  25% {transform: translate(-885px,1560px) rotate(-5deg);}
+  50% {transform: translate(-885px,1560px) rotate(0deg);}
+  75% {transform: translate(-885px,1560px) rotate(5deg);}
+  100% {transform: translate(-885px,1560px) rotate(0deg);}
+}
+
+.cecilia{
+  width: 300px;
+  height: 270px;
+  position: absolute;
+  transform: translate(-1395px,1560px);
+}
+.cecilia:hover{
+  animation: cecilia 1s linear infinite;
+  transition: ease-in-out;
+}
+
+@keyframes cecilia {
+  0% {transform: translate(-1395px,1560px) rotate(0deg);}
+  25% {transform: translate(-1395px,1560px) rotate(-5deg);}
+  50% {transform: translate(-1395px,1560px) rotate(0deg);}
+  75% {transform: translate(-1395px,1560px) rotate(5deg);}
+  100% {transform: translate(-1395px,1560px) rotate(0deg);}
+}
+
+.bee{
+  width: 10px;
+}
+
+.flowers{
+  width: 1713.5;
+  height: 416.2;
+  position: absolute;
+  transform: translate(100px, 1700px);
+  z-index: -1;
+}
+
+.background{
+  width: 1920;
+  height: 2161.3;
+  position: absolute;
+  z-index: -1;
+}
+.bee{
+  width: 1920;
+  height: 2161.3;
+  position: absolute;
+  z-index: -1;
+}

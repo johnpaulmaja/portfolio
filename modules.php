@@ -662,7 +662,6 @@
 <div class="article-title"> Learning Evidence Midterm</div>
       <a href="leMidterm/index.php" target="_blank"> Website here </a>
     </div>
-</div>
      
     </div>
      

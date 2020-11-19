@@ -662,7 +662,7 @@
      <button onclick="leMid()" class="w3-button w3-ripple w3-green" >Learning Evidence Midterm</button><br><br>
     <div  id="leMid" style="display: none; text-align: center">
         <div class="article-title"> Learning Evidence Midterm</div>
-     <a href="leMidterm/index.php" target="_blank"> Learning Evidence Midterm </a>
+     <a href="leMidterm/index.php" target="_blank"> Website Here </a>
       <ul class="article-content"> 
       
 </div>

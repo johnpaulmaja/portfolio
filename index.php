@@ -141,4 +141,12 @@ function svganimation() {
         x.style.display = 'none';
     }
 }
+function leMid() {
+   var x = document.getElementById('leMid');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
 </script>

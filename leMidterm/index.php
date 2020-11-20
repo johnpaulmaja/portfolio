@@ -15,7 +15,8 @@
                   <g id="sun"><!--Sun-->
                     <circle cx="990" cy="230" r="190" style="fill: #f9ffa1;"><animate attributeName="r" from="150" to="230" dur="2s" begin="0s" repeatCount="indefinite"/></circle>
                     <circle cx="990" cy="230" r="190" style="fill: #f9ffa1;"><animate attributeName="r" from="230" to="150" dur="2s" begin="2s"repeatCount="indefinite"/></circle>
-                    <text transform="translate(750 270)" style="font-size: 152px;fill: #bfd79b;font-family: 'Modak', cursive;">FLOOM</text>
+                    <text transform="translate(700 270)" style="font-size: 152px;fill: black;font-family: 'Yantramanav', sans-serif;">F&#160L&#160O&#160 &#160 M &#160</text>
+                    <text transform="translate(980 230)" style="font-size: 152px;fill: black;font-family: 'Yantramanav', sans-serif;"> &#160 O &#160</text>
                   </g>
                   <g><!--cloud-->
                     <ellipse cx="241" cy="109" rx="96" ry="88" style="fill: #fcfeff"><animate attributeName="cx" from="41" to="2161" dur="6s" repeatCount="indefinite"/></ellipse>

@@ -10,12 +10,22 @@ body{
     width: 200px;
     position: absolute;
     transform: translate(-1070px,730px);
-    animation: uniquerotate 5s linear infinite;
-    transition: ease-in-out;
+    cursor: pointer;
+}
+.unique:active{
+  animation: uniquerotate 5s linear infinite;
+  transition: ease-in-out;
 }
 
 @keyframes uniquerotate {
   100% {transform: translate(-1070px,730px) rotate(360deg);}
+}
+
+.clouds{
+  width: 200px;
+  position: absolute;
+  transform: translate(0px,0px);
+  cursor: pointer;
 }
 
 .handshake{
@@ -146,6 +156,14 @@ body{
   transform: translate(100px, 1700px);
   z-index: -1;
 }
+.flowers:hover{
+  animation: flowers 1s linear infinite;
+  transition: ease-in-out;
+}
+@keyframes flowers {
+  0% {transform: translate(-78.5 -1667) scale(0);}
+  100% {transform: translate(-78.5 -1667)scale(1.5);}
+}
 
 .background{
   width: 1920;
@@ -158,4 +176,15 @@ body{
   height: 2161.3;
   position: absolute;
   z-index: -1;
+}
+
+#myDIV{
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+.button{
+  position: absolute;
+  left: 100px;
+  z-index: 1;
 }

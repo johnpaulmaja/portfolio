@@ -11,38 +11,48 @@
           <object type="image/svg+xml" data="svg/flowers.svg" class="flowers"></object>
           <object type="image/svg+xml" data="svg/bee.svg" class="bee"></object>
 
+          <svg viewBox="0 0 1920 2161.3">
+            <g id="sun"><!--Sun-->
+              <circle cx="990" cy="230" r="190" style="fill: #f9ffa1;"><animate attributeName="r" from="150" to="230" dur="2s" begin="0s" repeatCount="indefinite"/></circle>
+              <circle cx="990" cy="230" r="190" style="fill: #f9ffa1;"><animate attributeName="r" from="230" to="150" dur="2s" begin="2s"repeatCount="indefinite"/></circle>
+              <text transform="translate(700 270)" style="font-size: 152px;fill: black;font-family: 'Yantramanav', sans-serif;">F&#160L&#160O&#160 &#160 M &#160</text>
+              <text transform="translate(980 230)" style="font-size: 152px;fill: black;font-family: 'Yantramanav', sans-serif;"> &#160 O &#160</text>
+            </g>
+            <g><!--cloud-->
+              <ellipse cx="241" cy="109" rx="96" ry="88" style="fill: #fcfeff"><animate attributeName="cx" from="41" to="2161" dur="6s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="178" cy="175" rx="99" ry="77" style="fill: #fcfeff"><animate  attributeName="cx" from="-22" to="2098" dur="6s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="348" cy="171" rx="98" ry="91" style="fill: #fcfeff"><animate  attributeName="cx" from="148" to="2268" dur="6s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="67" cy="206" rx="67" ry="55" style="fill: #fcfeff"><animate  attributeName="cx" from="-133" to="1987" dur="6s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="245" cy="226" rx="44" ry="35" style="fill: #fcfeff"><animate  attributeName="cx" from="45" to="2165" dur="6s" repeatCount="indefinite"/></ellipse>
+              <circle cx="442" cy="206" r="55" style="fill: #fcfeff"><animate  attributeName="cx" from="242" to="2362" dur="6s" repeatCount="indefinite"/></circle>
+
+              <ellipse cx="241" cy="409" rx="96" ry="88" style="fill: #fcfeff"><animate attributeName="cx" from="41" to="2161" dur="5s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="178" cy="475" rx="99" ry="77" style="fill: #fcfeff"><animate  attributeName="cx" from="-22" to="2098" dur="5s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="348" cy="471" rx="98" ry="91" style="fill: #fcfeff"><animate  attributeName="cx" from="148" to="2268" dur="5s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="67" cy="506" rx="67" ry="55" style="fill: #fcfeff"><animate  attributeName="cx" from="-133" to="1987" dur="5s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="245" cy="526" rx="44" ry="35" style="fill: #fcfeff"><animate  attributeName="cx" from="45" to="2165" dur="5s" repeatCount="indefinite"/></ellipse>
+              <circle cx="442" cy="506" r="55" style="fill: #fcfeff"><animate  attributeName="cx" from="242" to="2362" dur="5s" repeatCount="indefinite"/></circle>
+
+              <ellipse cx="241" cy="309" rx="96" ry="88" style="fill: #fcfeff"><animate attributeName="cx" from="41" to="2161" dur="5.5s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="178" cy="375" rx="99" ry="77" style="fill: #fcfeff"><animate  attributeName="cx" from="-22" to="2098" dur="5.5s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="348" cy="371" rx="98" ry="91" style="fill: #fcfeff"><animate  attributeName="cx" from="148" to="2268" dur="5.5s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="67" cy="406" rx="67" ry="55" style="fill: #fcfeff"><animate  attributeName="cx" from="-133" to="1987" dur="5.5s" repeatCount="indefinite"/></ellipse>
+              <ellipse cx="245" cy="426" rx="44" ry="35" style="fill: #fcfeff"><animate  attributeName="cx" from="45" to="2165" dur="5.5s" repeatCount="indefinite"/></ellipse>
+              <circle cx="442" cy="406" r="55" style="fill: #fcfeff"><animate  attributeName="cx" from="242" to="2362" dur="5.5s" repeatCount="indefinite"/></circle>
+            </g>
+          </svg>
+
+          
+          <button onclick="myFunction()" class="button">Click Me to hide the overlay</button>
+
+          <div id="myDIV">
+          
+          
             <svg viewBox="0 0 1920 2161.3">
-                  <g id="sun"><!--Sun-->
-                    <circle cx="990" cy="230" r="190" style="fill: #f9ffa1;"><animate attributeName="r" from="150" to="230" dur="2s" begin="0s" repeatCount="indefinite"/></circle>
-                    <circle cx="990" cy="230" r="190" style="fill: #f9ffa1;"><animate attributeName="r" from="230" to="150" dur="2s" begin="2s"repeatCount="indefinite"/></circle>
-                    <text transform="translate(700 270)" style="font-size: 152px;fill: black;font-family: 'Yantramanav', sans-serif;">F&#160L&#160O&#160 &#160 M &#160</text>
-                    <text transform="translate(980 230)" style="font-size: 152px;fill: black;font-family: 'Yantramanav', sans-serif;"> &#160 O &#160</text>
-                  </g>
-                  <g><!--cloud-->
-                    <ellipse cx="241" cy="109" rx="96" ry="88" style="fill: #fcfeff"><animate attributeName="cx" from="41" to="2161" dur="6s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="178" cy="175" rx="99" ry="77" style="fill: #fcfeff"><animate  attributeName="cx" from="-22" to="2098" dur="6s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="348" cy="171" rx="98" ry="91" style="fill: #fcfeff"><animate  attributeName="cx" from="148" to="2268" dur="6s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="67" cy="206" rx="67" ry="55" style="fill: #fcfeff"><animate  attributeName="cx" from="-133" to="1987" dur="6s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="245" cy="226" rx="44" ry="35" style="fill: #fcfeff"><animate  attributeName="cx" from="45" to="2165" dur="6s" repeatCount="indefinite"/></ellipse>
-                    <circle cx="442" cy="206" r="55" style="fill: #fcfeff"><animate  attributeName="cx" from="242" to="2362" dur="6s" repeatCount="indefinite"/></circle>
-
-                    <ellipse cx="241" cy="409" rx="96" ry="88" style="fill: #fcfeff"><animate attributeName="cx" from="41" to="2161" dur="5s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="178" cy="475" rx="99" ry="77" style="fill: #fcfeff"><animate  attributeName="cx" from="-22" to="2098" dur="5s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="348" cy="471" rx="98" ry="91" style="fill: #fcfeff"><animate  attributeName="cx" from="148" to="2268" dur="5s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="67" cy="506" rx="67" ry="55" style="fill: #fcfeff"><animate  attributeName="cx" from="-133" to="1987" dur="5s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="245" cy="526" rx="44" ry="35" style="fill: #fcfeff"><animate  attributeName="cx" from="45" to="2165" dur="5s" repeatCount="indefinite"/></ellipse>
-                    <circle cx="442" cy="506" r="55" style="fill: #fcfeff"><animate  attributeName="cx" from="242" to="2362" dur="5s" repeatCount="indefinite"/></circle>
-
-                    <ellipse cx="241" cy="309" rx="96" ry="88" style="fill: #fcfeff"><animate attributeName="cx" from="41" to="2161" dur="5.5s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="178" cy="375" rx="99" ry="77" style="fill: #fcfeff"><animate  attributeName="cx" from="-22" to="2098" dur="5.5s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="348" cy="371" rx="98" ry="91" style="fill: #fcfeff"><animate  attributeName="cx" from="148" to="2268" dur="5.5s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="67" cy="406" rx="67" ry="55" style="fill: #fcfeff"><animate  attributeName="cx" from="-133" to="1987" dur="5.5s" repeatCount="indefinite"/></ellipse>
-                    <ellipse cx="245" cy="426" rx="44" ry="35" style="fill: #fcfeff"><animate  attributeName="cx" from="45" to="2165" dur="5.5s" repeatCount="indefinite"/></ellipse>
-                    <circle cx="442" cy="406" r="55" style="fill: #fcfeff"><animate  attributeName="cx" from="242" to="2362" dur="5.5s" repeatCount="indefinite"/></circle>
-                  </g>
                   <g><!--Overlay rectangle-->
                     <rect x="200" y="491" width="1521" height="1467" style="fill: #fff; stroke:black;opacity: 0.70;"/>
                   </g>
+                  
                   <g><!--eye-->
                     <path id="eye" d="M277,697s33,19,107-17c0,0,82-33,135,6,0,0,15,7,33,30,0,0-24,36-60,44l36-44s-19-26-24-19-22,52-84,28c0,0-20-14-17-28,0,0,14,28,43,21,0,0,25-1,32-29,0,0-27-15-88,6,0,0-71,27-95,12C295,707,283,704,277,697Z" transform="translate(10 -40)"/>
                     <animate xlink:href="#eye"
@@ -106,7 +116,20 @@
             <object type="image/svg+xml" data="svg/qingxin.svg" class="qingxin"></object>
             <object type="image/svg+xml" data="svg/violetgrass.svg" class="violetgrass"></object>
             <object type="image/svg+xml" data="svg/cecilia.svg" class="cecilia"></object>
-            <a href="https://github.com/johnpaulmaja/portfolio/tree/main/leMidterm" style="position: absolute;transform: translate(-1040px,1920px); width: 120px;">Github Link here</a>
+            
+            <a href="https://github.com/johnpaulmaja/LEsvg" style="position: absolute;transform: translate(-1040px,1920px); width: 120px;">Github Link here</a>
+          </div>
         </wrapper>
     </body>
 </html> 
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>

@@ -668,17 +668,5 @@
 </div>
     </div>
      
-          <div class="whole-article">
-    <div class="article-title"> <u>Module 7</u></div>
-      
-     <button onclick="html5()" class="w3-button w3-ripple w3-green" >HTML5 Canvas Drawing</button><br><br>
-    <div  id="html5" style="display: none; text-align: center">
-        <div class="article-title"> HTML5 Canvas Drawing</div>
-     <a href="html5/index.php" target="_blank"> Website Here </a>
-      <ul class="article-content"> 
-      
-</div>
-     </div>
-     
 </body>
 </html>

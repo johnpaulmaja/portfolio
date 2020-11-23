@@ -668,7 +668,7 @@
 </div>          
     </div>
      
-               <div class="whole-article">
+<div class="whole-article">
     <div class="article-title"> <u>Module 7</u></div>
       
      <button onclick="html5()" class="w3-button w3-ripple w3-green" >HTML5 Canvas Drawing</button><br><br>

@@ -666,7 +666,11 @@
       <ul class="article-content"> 
       
 </div>
+    </div>
      
+          <div class="whole-article">
+    <div class="article-title"> <u>Module 7</u></div>
+      
      <button onclick="html5()" class="w3-button w3-ripple w3-green" >HTML5 Canvas Drawing</button><br><br>
     <div  id="leMid" style="display: none; text-align: center">
         <div class="article-title"> HTML5 Canvas Drawing</div>
@@ -674,7 +678,7 @@
       <ul class="article-content"> 
       
 </div>
-    </div>
+     </div>
      
 </body>
 </html>

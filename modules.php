@@ -665,8 +665,8 @@
      <a href="leMidterm/index.php" target="_blank"> Website Here </a>
       <ul class="article-content"> 
       
-</div>
-     
+</div>          
+    </div>
      
                <div class="whole-article">
     <div class="article-title"> <u>Module 7</u></div>
@@ -679,9 +679,6 @@
       
      </div>
    </div>
-                
-                
-    </div>
      
 </body>
 </html>

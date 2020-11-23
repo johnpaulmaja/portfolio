@@ -27,4 +27,4 @@
 
 
 
-<a href="https://github.com/johnpaulmaja/portfolio/tree/main/html5" id="links" style="margin-left: 480px;">Github Link here</a>
+<a href="https://github.com/johnpaulmaja/portfolio/tree/main/html5">Github Link here</a>

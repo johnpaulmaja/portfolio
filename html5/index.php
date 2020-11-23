@@ -24,3 +24,7 @@
 <script type="text/javascript" src="8ball.js"></script>
 <script type="text/javascript" src="icecream.js"></script>
 <script type="text/javascript" src="syringe.js"></script>
+
+
+
+<a href="https://github.com/johnpaulmaja/portfolio/tree/main/html5" id="links" style="margin-left: 480px;">Github Link here</a>

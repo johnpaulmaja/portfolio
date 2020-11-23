@@ -149,4 +149,12 @@ function leMid() {
         x.style.display = 'none';
     }
 }
+function () {
+   var x = document.getElementById('html5');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
 </script>
